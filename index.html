@@ -10,23 +10,219 @@
     <body>
         <div class="root">
             <header class="Header">
-                <ul class="Header_list">
+                <ul class="Location-list">
                     <li>
                         <img
+                            width="12"
+                            height="16"
                             src="./assets/images/location.png"
-                            alt="location"
+                            alt="Location"
                         />
                     </li>
-                    <li>Rezilla, 18 Grattan St, Brooklyn</li>
+                    <li>
+                        <span>Rezilla, 18 Grattan St, Brooklyn</span>
+                    </li>
                 </ul>
-                <ul class="Header_list">
-                    <li><img src="./assets/images/phone.png" alt="phone" /></li>
-                    <li>+1 206-214-2298</li>
-                    <li><img src="./assets/images/mail.png" alt="mail" /></li>
-                    <li>support@rezilla.com</li>
+                <ul class="Contact-list">
+                    <li>
+                        <img
+                            width="16"
+                            height="16"
+                            src="./assets/images/phone.png"
+                            alt="Phone"
+                        />
+                    </li>
+                    <li><a href="tel:+1 206-214-2298">+1 206-214-2298</a></li>
+                    <li>
+                        <img
+                            width="16"
+                            height="11.2"
+                            src="./assets/images/mail.png"
+                            alt="Mail"
+                        />
+                    </li>
+                    <li>
+                        <a href="mailto:support@rezilla.com"
+                            >support@rezilla.com</a
+                        >
+                    </li>
                 </ul>
             </header>
-            <main class="Main"></main>
+            <main class="Main">
+                <nav>
+                    <div class="Navig-object">
+                        <ul class="Nav-list">
+                            <li><a href="#Home">Home</a></li>
+                            <li><a href="#About">About</a></li>
+                            <li><a href="#Listings">Listings</a></li>
+                            <li><a href="#Services">Services</a></li>
+                            <li><a href="#Blogs">Blogs</a></li>
+                        </ul>
+                        <ul class="Navig-Home_list">
+                            <li>
+                                <img
+                                    width="24"
+                                    height="24"
+                                    src="./assets/images/14-House.png"
+                                    alt="Home"
+                                />
+                            </li>
+                            <li><span> Rezilla </span></li>
+                        </ul>
+                        <div class="Nav-Add_info">
+                            <a href="#">
+                                <ul class="Nav-Login_list">
+                                    <li>
+                                        <img
+                                            width="18"
+                                            height="18"
+                                            src="./assets/images/login2.png"
+                                            alt="Login"
+                                        />
+                                    </li>
+                                    <li><span>Login/Register</span></li>
+                                </ul>
+                            </a>
+                            <a href="#">
+                                <ul class="Nav-Add_list">
+                                    <li>
+                                        <img
+                                            src="./assets/images/14-House.png"
+                                            alt="Add listing"
+                                        />
+                                    </li>
+                                    <li>
+                                        <span> Add Listing </span>
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+                <h3>REAL ESTATE</h3>
+                <h1>
+                    Find a perfect <br />
+                    home you love..!
+                </h1>
+                <p>
+                    Etiam eget elementum elit. Aenean dignissim dapibus
+                    vestibulum. <br />
+                    Integer a dolor eu sapien sodales vulputate ac in purus.
+                </p>
+                <div class="Slider">
+                    <div class="Slides">
+                        <input type="radio" name="r" id="r1" checked />
+                        <input type="radio" name="r" id="r2" />
+                        <input type="radio" name="r" id="r3" />
+                        <input type="radio" name="r" id="r4" />
+
+                        <div class="Images-slides s1">
+                            <img
+                                width="540"
+                                height="340"
+                                src="./assets/images/pexels-mark-mccammon-2724749-min.jpg"
+                                alt="Images"
+                            />
+                        </div>
+                        <div class="Images-slides">
+                            <img
+                                width="540"
+                                height="340"
+                                src="./assets/images/pexels-pixabay-276554-min.jpg"
+                                alt="Images"
+                            />
+                        </div>
+                        <div class="Images-slides">
+                            <img
+                                width="540"
+                                height="340"
+                                src="./assets/images/pexels-pixabay-534151-min.jpg"
+                                alt="Images"
+                            />
+                        </div>
+                        <div class="Images-slides">
+                            <img
+                                width="540"
+                                height="340"
+                                src="./assets/images/pexels-vecislavas-popa-1571463-min.jpg"
+                                alt="Images"
+                            />
+                        </div>
+                    </div>
+                    <div class="Images-bar">
+                        <label for="r1" class="bar"></label>
+                        <label for="r2" class="bar"></label>
+                        <label for="r3" class="bar"></label>
+                        <label for="r4" class="bar"></label>
+                    </div>
+                </div>
+                <section class="Select-case">
+                    <ul class="Select-case_list">
+                        <li>
+                            <input
+                                type="radio"
+                                name="s"
+                                id="s1"
+                                checked
+                            /><span> For Sale </span>
+                        </li>
+                        <li>
+                            <input type="radio" name="s" id="s2" /><span>
+                                For Rent
+                            </span>
+                        </li>
+                    </ul>
+                    <label for="s1"></label>
+                    <label for="s2"></label>
+                    <section class="Select-bar">
+                        <label for="s1" class="Select-case_bar"></label>
+                        <label for="s2" class="Select-case_bar"></label>
+                    </section>
+                    <section class="Select-type">
+                        <ul>
+                            <li>
+                                <input
+                                    type="text"
+                                    placeholder="New York, San Francisco, etc"
+                                />
+                            </li>
+                            <li>
+                                <form>
+                                    <label for="Select-type"></label>
+                                    <select name="Property" id="Select-type">
+                                        <option value="">
+                                            Select Property Type
+                                        </option>
+                                        <option value="house">House</option>
+                                        <option value="room">Room</option>
+                                        <option value="single-family home">
+                                            Single-family home
+                                        </option>
+                                        <option value="tiny house">
+                                            Tiny house
+                                        </option>
+                                    </select>
+                                </form>
+                            </li>
+                            <li>
+                                <form>
+                                    <label for="Select-type_room"></label>
+                                    <select
+                                        name="Type-room"
+                                        id="Select-type_room"
+                                    >
+                                        <option value="">Select Rooms</option>
+                                        <option value="1kk">1kk</option>
+                                        <option value="1+1">1 + 1</option>
+                                        <option value="2kk">2kk</option>
+                                        <option value="2+1">2 + 1</option>
+                                    </select>
+                                </form>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+            </main>
             <footer class="Footer"></footer>
         </div>
         <script src="./js/index.js"></script>
