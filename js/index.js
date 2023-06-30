@@ -8,3 +8,8 @@ $('a[href*="#"]').click(function () {
     );
     return false;
 });
+
+var btn = document.getElementById("btn");
+btn.addEventListener("All", function () {
+    this.classList.add("active");
+});
